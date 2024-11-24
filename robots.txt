@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mili-cosovic.github.io/Luckybean/sitemap.xml
