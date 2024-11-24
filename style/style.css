@@ -348,3 +348,8 @@ margin-top: 50px;
     background-size: cover;
     height: 100vh;
   }
+
+.nase-informacije a{ 
+color: inherit; 
+    text-decoration: none;
+}
