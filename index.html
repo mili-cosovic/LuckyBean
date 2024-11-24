@@ -16,9 +16,6 @@
     <meta property="og:url" content="https://mili-cosovic.github.io/Luckybean/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="sr_RS" />
-
-    <!-- Facebook SDK -->
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v21.0"></script>
 </head>
 
 <body>
@@ -52,19 +49,28 @@
             </div>
         </div>
         <div class="kontakt-info">
+            <div class="news">
+                <h3>Prijavite se na naš newsletter</h3>
+                <form>
+                    <label for="name">Ime:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Prijavi se</button>
+                </form>
+            </div>
+            <div class="nase-informacije">
+                <h3>Lucky Bean info</h3>
+                <a href="tel:+381601234567" title="Pozovite Lucky Bean">060/123-4567</a><br>
+                <a href="mailto:info@lucky-beans.com" title="Pošaljite email Lucky Bean kafeteriji">info@lucky-beans.com</a>
+                <p>Resavska 22, 11000 Beograd</p>
+                <p>Bul. kralja Aleksandra 122, 11000 Beograd </p>
+            </div>
             <div class="mreze">
                 <h3>Pratite nas</h3>
-                <div class="fb-like" 
-                     data-href="https://mili-cosovic.github.io/Luckybean/" 
-                     data-width="" 
-                     data-layout="button_count" 
-                     data-action="like" 
-                     data-size="small" 
-                     data-share="true"></div>
-                
-                <div class="fb-share-button" 
-                     data-href="https://mili-cosovic.github.io/Luckybean/" 
-                     data-layout="button_count"></div>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
             </div>
         </div>
     </main>
@@ -72,4 +78,5 @@
         <p>&copy; 2024 Lucky Bean Kafeterija. Sva prava zadržana.</p>
     </footer>
 </body>
+
 </html>
